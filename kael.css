@@ -1,0 +1,62 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #333333;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+#btn-mulai {
+	background-color: hsla(93.3, 62.8%, 83.1%, 0.992);
+	color: #fff;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 50px;
+	color: #f2f2f2;
+}
+
+#permainan,
+#ulang {
+	display: none;
+	margin-top: 50px;
+}
+
+#pilihan {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#pilihan button {
+	background-color: hsla(93.3, 87.7%, 92%, 0.739);
+	border: none;
+	margin: 0 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#hasil {
+	font-size: 24px;
+	margin-top: 50px;
+	color: #f2f2f2;
+}
+
+#ulang {
+	background-color: #b2b2b0;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+#resetBtn {
+	margin-top: 3rem;
+	background-color: hsla(93.3, 64.7%, 51.1%, 0.739);
+	color: #fff;
+}
